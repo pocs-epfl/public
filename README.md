@@ -9,3 +9,4 @@ This course is targeted primarily at students who wish to acquire a deep underst
 This repo contains related materials that we make available to the public. For EPFL-specific information, please see [the course webpage](http://pocs.epfl.ch/).
 
 - [Final exams](exams/final/README.md)
+- [Midterm exams](exams/midterm/README.md)
