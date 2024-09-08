@@ -30,19 +30,19 @@ We meet twice a week from 11:15&mdash;13:00 in [BC01](https://plan.epfl.ch/?room
 
 | **Week**               | **Topic**                          | **Readings**             |
 |------------------------|------------------------------------|--------------------------|
-| _Wk1_: Sep 10 + 13     | Modularity &amp; Abstraction       | TBD                      |
-| _Wk2_: Sep 17 + 20     | Naming &amp; Indirection           | TBD                      |
-| _Wk3_: Sep 24 + 27     | Layering                           | TBD                      |
-| _Wk4_: Oct 1 + 4       | Case study: The Internet           | TBD                      |
-| _Wk5_: Oct 8 + 11      | Case study: Virtual Memory         | TBD                      |
-| _Wk6_: Oct 15 + 18     | Case study: Machine Virtualization | TBD                      |
+| _Wk1_: Sep 10 + 13     | Modularity &amp; Abstraction       | [Exokernel](https://dl.acm.org/doi/pdf/10.1145/224057.224076) <br>  (focus on interfaces) |
+| _Wk2_: Sep 17 + 20     | Naming &amp; Indirection           | [Global Name Service](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/Lampson.pdf) + [Chord](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf) |
+| _Wk3_: Sep 24 + 27     | Layering                           | [Multi-path TCP](https://www.usenix.org/legacy/events/nsdi11/tech/full_papers/Wischik.pdf) + [RON](https://www.cs.cmu.edu/~dga/papers/ron-sosp2001.pdf) |
+| _Wk4_: Oct 1 + 4       | Case study: The Internet           | [Akamai](https://www.akamai.com/site/en/documents/research-paper/akamai-dns-providing-authoritative-answers-to-the-worlds-queries.pdf)                      |
+| _Wk5_: Oct 8 + 11      | Case study: Virtual Memory         | [Twizzler](https://www.usenix.org/system/files/atc20-bittman.pdf) <br> (focus on naming and interfaces to memory) |
+| _Wk6_: Oct 15 + 18     | Case study: Machine Virtualization | [Formal reqs for virtualization](https://dl.acm.org/doi/pdf/10.1145/361011.361073) + [Xen](https://dl.acm.org/doi/pdf/10.1145/1165389.945462) <br> (focus on layering and interfaces)  |
 | <center>Break</center> | <center>&mdash;</center>           | <center>&mdash;</center> |
-| _Wk7_: Oct 29 + Nov 1  | Client/Server Organization         | TBD                      |
-| _Wk8_: Nov 5 + 8       | Locality &amp; Caching             | TBD                      |
-| _Wk9_: Nov 12 + 15     | Redundancy                         | TBD                      |
-| _Wk10_: Nov 19 + 22    | Case study: Transactions           | TBD                      |
-| _Wk11_: Nov 26 + 29    | Laziness &amp; Speculation         | TBD                      |
-| _Wk12_: Dec 3 + 6      | Hardware/Software Co-Design        | TBD                      |
+| _Wk7_: Oct 29 + Nov 1  | Client/Server Organization         | [Microkernel](https://dl.acm.org/doi/pdf/10.1145/224056.224075) + [Duality of OS structs](https://dl.acm.org/doi/pdf/10.1145/850657.850658) <br> (focus on client/server isolation via messages) |
+| _Wk8_: Nov 5 + 8       | Locality &amp; Caching             | [Working Set Analytics](https://dl.acm.org/doi/10.1145/3399709)   |
+| _Wk9_: Nov 12 + 15     | Redundancy                         | [RAID](https://dl.acm.org/doi/pdf/10.1145/971701.50214) + [RAMcloud](https://dl.acm.org/doi/pdf/10.1145/1713254.1713276) <br> (focus on how redundancy is used) |
+| _Wk10_: Nov 19 + 22    | Case study: Transactions           | [Replication explained through baseball](https://dl.acm.org/doi/pdf/10.1145/2500500) + [CAP 12 yrs later](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/) <br> (focus on transactional semantics & redundancy)|
+| _Wk11_: Nov 26 + 29    | Laziness &amp; Speculation         | Design questions on lazy and speculative execution <br> (No assigned reading) |
+| _Wk12_: Dec 3 + 6      | Hardware/Software Co-Design        | [A New Golden Age for Computer Architecture](https://www.youtube.com/watch?v=3LVeEjsn8Ts&t=2183s) <br> (about 10 minutes, up to when Patterson starts) <br>[There’s plenty of room at the Top](https://www.science.org/doi/10.1126/science.aam9744) |
 | _Wk13_: Dec 10 + 13    | Exam Review                        | <center>&mdash;</center> |
 | _Wk14_: Dec 17 + 20    | Exam                               | <center>&mdash;</center> |
 
