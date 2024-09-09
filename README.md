@@ -1,6 +1,8 @@
 # EPFL CS-522: Principles of Computer Systems
 
-<center><strong><font color="red">Draft subject to change</font></strong></center>
+> [!IMPORTANT]  
+> This material is subject to change. Check back often.
+
 
 ## Description
 
@@ -10,8 +12,8 @@ A modern computer system spans many layers: applications, libraries, operating s
 
 ## Staff
 
-Instructors: [Prof. Katerina Argyraki](http://people.epfl.ch/katerina.argyraki) and [Prof. George Candea](http://dslab.epfl.ch/people/candea)
-
+Instructor: [Prof. George Candea](http://dslab.epfl.ch/people/candea)<br>
+Co-instructor: [Prof. Katerina Argyraki](http://people.epfl.ch/katerina.argyraki)<br>
 TAs: [Can Cebeci](http://dslab.epfl.ch/people/cebeci) and [Jiacheng Ma](http://dslab.epfl.ch/people/jiacma)
 
 The staff is reachable at pocs-staff@dslab.org for any private issues you may have; for questions whose answers could benefit other students, please use the class forum (accessed via Moodle).
@@ -22,38 +24,57 @@ We meet twice a week from 11:15&mdash;13:00 in [BC01](https://plan.epfl.ch/?room
 
 **Lectures** on Tuesdays, **Recitations** on Fridays
 
-*Exam review*: Tuesday 10-Dec (<font color="red">Friday 13-Dec??</font>)<br>
+*Exam review*: Tuesday 10-Dec and Friday 13-Dec<br>
 **Exam**: Tuesday 17-Dec<br>
 *Exam discussion*: Friday 20-Dec <br>
 
 ## Syllabus
 
-| **Week**               | **Topic**                          | **Readings**             |
-|------------------------|------------------------------------|--------------------------|
-| _Wk1_: Sep 10 + 13     | Modularity &amp; Abstraction       | [Exokernel](https://dl.acm.org/doi/pdf/10.1145/224057.224076) <br>  (focus on interfaces) |
-| _Wk2_: Sep 17 + 20     | Naming &amp; Indirection           | [Global Name Service](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/Lampson.pdf) + [Chord](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf) |
-| _Wk3_: Sep 24 + 27     | Layering                           | [Multi-path TCP](https://www.usenix.org/legacy/events/nsdi11/tech/full_papers/Wischik.pdf) + [RON](https://www.cs.cmu.edu/~dga/papers/ron-sosp2001.pdf) |
-| _Wk4_: Oct 1 + 4       | Case study: The Internet           | [Akamai](https://www.akamai.com/site/en/documents/research-paper/akamai-dns-providing-authoritative-answers-to-the-worlds-queries.pdf)                      |
-| _Wk5_: Oct 8 + 11      | Case study: Virtual Memory         | [Twizzler](https://www.usenix.org/system/files/atc20-bittman.pdf) <br> (focus on naming and interfaces to memory) |
-| _Wk6_: Oct 15 + 18     | Case study: Machine Virtualization | [Formal reqs for virtualization](https://dl.acm.org/doi/pdf/10.1145/361011.361073) + [Xen](https://dl.acm.org/doi/pdf/10.1145/1165389.945462) <br> (focus on layering and interfaces)  |
-| <center>Break</center> | <center>&mdash;</center>           | <center>&mdash;</center> |
-| _Wk7_: Oct 29 + Nov 1  | Client/Server Organization         | [Microkernel](https://dl.acm.org/doi/pdf/10.1145/224056.224075) + [Duality of OS structs](https://dl.acm.org/doi/pdf/10.1145/850657.850658) <br> (focus on client/server isolation via messages) |
-| _Wk8_: Nov 5 + 8       | Locality &amp; Caching             | [Working Set Analytics](https://dl.acm.org/doi/10.1145/3399709)   |
-| _Wk9_: Nov 12 + 15     | Redundancy                         | [RAID](https://dl.acm.org/doi/pdf/10.1145/971701.50214) + [RAMcloud](https://dl.acm.org/doi/pdf/10.1145/1713254.1713276) <br> (focus on how redundancy is used) |
-| _Wk10_: Nov 19 + 22    | Case study: Transactions           | [Replication explained through baseball](https://dl.acm.org/doi/pdf/10.1145/2500500) + [CAP 12 yrs later](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/) <br> (focus on transactional semantics & redundancy)|
-| _Wk11_: Nov 26 + 29    | Laziness &amp; Speculation         | Design questions on lazy and speculative execution <br> (No assigned reading) |
-| _Wk12_: Dec 3 + 6      | Hardware/Software Co-Design        | [A New Golden Age for Computer Architecture](https://www.youtube.com/watch?v=3LVeEjsn8Ts&t=2183s) <br> (about 10 minutes, up to when Patterson starts) <br>[There’s plenty of room at the Top](https://www.science.org/doi/10.1126/science.aam9744) |
-| _Wk13_: Dec 10 + 13    | Exam Review                        | <center>&mdash;</center> |
-| _Wk14_: Dec 17 + 20    | Exam                               | <center>&mdash;</center> |
+| **Week**               | **Topic**                          | **Readings**                                                                                                                                                                                                                                                 | **Quiz** |
+|------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
+| _Wk1_: Sep 10 + 13     | Modularity &amp; Abstraction [[slides](https://moodle.epfl.ch/pluginfile.php/3276992/mod_resource/content/2/Wk1%20-%20Modularity%20and%20Abstraction.pdf)]      | [Exokernel](https://dl.acm.org/doi/pdf/10.1145/224057.224076)<br>>focus on interfaces                                                                                                                                                                        | Q1       |
+| _Wk2_: Sep 17 + 20     | Naming &amp; Indirection           | [Global Name Service](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/Lampson.pdf)<br>(optionally also [Chord](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf))                                                           | Q2       |
+| _Wk3_: Sep 24 + 27     | Layering                           | [RON](https://www.cs.cmu.edu/~dga/papers/ron-sosp2001.pdf)<br>(optionally also [Multi-path TCP](https://www.usenix.org/legacy/events/nsdi11/tech/full_papers/Wischik.pdf))                                                                                   |          |
+| _Wk4_: Oct 1 + 4       | Case study: The Internet           | [Akamai](https://www.akamai.com/site/en/documents/research-paper/akamai-dns-providing-authoritative-answers-to-the-worlds-queries.pdf)                                                                                                                       |          |
+| _Wk5_: Oct 8 + 11      | Case study: Virtual Memory         | [Twizzler](https://www.usenix.org/system/files/atc20-bittman.pdf)<br>>focus on naming and interfaces to memory                                                                                                                                               | Q3       |
+| _Wk6_: Oct 15 + 18     | Case study: Machine Virtualization | [Formal requirements for virtualization](https://dl.acm.org/doi/pdf/10.1145/361011.361073)<br>(optionally also [Xen](https://dl.acm.org/doi/pdf/10.1145/1165389.945462))                                                                                     |          |
+| <center>Break</center> | <center>&mdash;</center>           | <center>&mdash;</center>                                                                                                                                                                                                                                     |          |
+| _Wk7_: Oct 29 + Nov 1  | Client/Server Organization         | [Microkernel](https://dl.acm.org/doi/pdf/10.1145/224056.224075)<br>>focus on client/server isolation via messages                                                                                                                                            | Q4       |
+| _Wk8_: Nov 5 + 8       | Laziness &amp; Speculation         | No assigned readings                                                                                                                                                                                                                                         |          |
+| _Wk9_: Nov 12 + 15     | Locality &amp; Caching             | [Working set analytics](https://dl.acm.org/doi/10.1145/3399709)                                                                                                                                                                                              |          |
+| _Wk10_: Nov 19 + 22    | Redundancy                         | [RAID](https://dl.acm.org/doi/pdf/10.1145/971701.50214) and [RAMcloud](https://dl.acm.org/doi/pdf/10.1145/1713254.1713276)<br>>focus on how redundancy is used                                                                                               | Q5       |
+| _Wk11_: Nov 26 + 29    | Case study: Transactions           | [Replication explained through baseball](https://dl.acm.org/doi/pdf/10.1145/2500500) and [CAP 12 yrs later](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)<br>>focus on transactional semantics & redundancy             |          |
+| _Wk12_: Dec 3 + 6      | Hardware/Software Co-Design        | [A new golden age for computer architecture](https://www.youtube.com/watch?v=3LVeEjsn8Ts&t=2183s) <br /> (about 10 minutes, up to when Patterson starts) <br /> and [There's plenty of room at the top](https://www.science.org/doi/10.1126/science.aam9744) | Q6       |
+| _Wk13_: Dec 10 + 13    | Exam Review                        | <center>&mdash;</center>                                                                                                                                                                                                                                     |          |
+| _Wk14_: Dec 17 + 20    | Exam                               | <center>&mdash;</center>                                                                                                                                                                                                                                     |          |
+
+The weekly readings are typically classic Computer Systems papers that embody the principle discussed that week and that have withstood the test of time.
+
+Quizzes take place on the Friday of the week indicated in the syllabus.
+They are short, in-class, and handwritten.
+Quiz Q<sub>i</sub> can cover any material covered in the course up to that point.
+>>>>>>> Release README for the first day of class
 
 
 ## Grading 
 
-<font color="red">TBD</font>
+Your grade for the course will be computed 50% based on the quizzes and 50% based on the exam. 
+We will adjust grades in cases where we consider that the computed outcome does not correspond to the student’s mastery of the subject.
 
 ## Prerequisites
 
-<font color="red">TBD</font>
+This course is meant primarily for students who intend to pursue research in the area of systems, therefore you must have a solid systems background. 
+Without a solid systems background, it is hard to succeed in POCS.
+One way to acquire this background is, for example, by taking at least the following:
+
+- [CS-323: Introduction to operating systems](http://edu.epfl.ch/coursebook/en/introduction-to-operating-systems-CS-323)
+- [COM-407: TCP/IP networking](https://edu.epfl.ch/coursebook/en/tcp-ip-networking-COM-407)
+- [CS-470: Advanced computer architecture](https://edu.epfl.ch/coursebook/en/advanced-computer-architecture-CS-470)
+- [CS-422: Database systems](https://graphsearch.epfl.ch/course/CS-422/Big-Data-Database-systems)
+
+If you wish to brave it out despite an incomplete background, be ready to spend at least 2x more time than the other students in order to acquire, on the side, the necessary background on your own.
+To compensate for gaps in your background, you can try the textbook [Principles of Computer System Design: An Introduction](https://ocw.mit.edu/resources/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/) by J. H. Saltzer and M. F. Kaashoek; it’s available in the EPFL library as well as various places online.
+We nevertheless reserve the right to deny enrollment to students who do not fulfill the prerequisites.
 
 ## Workload
 
