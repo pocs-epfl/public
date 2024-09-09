@@ -53,7 +53,6 @@ The weekly readings are typically classic Computer Systems papers that embody th
 Quizzes take place on the Friday of the week indicated in the syllabus.
 They are short, in-class, and handwritten.
 Quiz Q<sub>i</sub> can cover any material covered in the course up to that point.
->>>>>>> Release README for the first day of class
 
 
 ## Grading 
