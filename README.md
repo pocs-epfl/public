@@ -65,11 +65,13 @@ We will adjust grades in cases where we consider that the computed outcome does 
 This course is meant primarily for students who intend to pursue research in the area of systems, therefore you must have a solid systems background. 
 Without a solid systems background, it is hard to succeed in POCS.
 One way to acquire this background is, for example, by taking at least the following:
-
-- [CS-323: Introduction to operating systems](http://edu.epfl.ch/coursebook/en/introduction-to-operating-systems-CS-323)
+<!--- 
+* CS-323 is not offered this semester and the website for the previous years' website is down. This is a link to an archived PDF-coursebook.
+--->
+- [CS-323: Introduction to operating systems](https://isa.epfl.ch/imoniteur_ISAP/!GEDPUBLICREPORTS.pdf?ww_i_reportModel=1696552884&ww_i_reportModelXsl=1696552963&ww_i_itemplan=3434624022&ww_c_langue=en)
 - [COM-407: TCP/IP networking](https://edu.epfl.ch/coursebook/en/tcp-ip-networking-COM-407)
 - [CS-470: Advanced computer architecture](https://edu.epfl.ch/coursebook/en/advanced-computer-architecture-CS-470)
-- [CS-422: Database systems](https://graphsearch.epfl.ch/course/CS-422/Big-Data-Database-systems)
+- [CS-460: Systems for data management and data science](https://edu.epfl.ch/coursebook/en/systems-for-data-management-and-data-science-CS-460)
 
 If you wish to brave it out despite an incomplete background, be ready to spend at least 2x more time than the other students in order to acquire, on the side, the necessary background on your own.
 To compensate for gaps in your background, you can try the textbook [Principles of Computer System Design: An Introduction](https://ocw.mit.edu/resources/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/) by J. H. Saltzer and M. F. Kaashoek; it’s available in the EPFL library as well as various places online.
@@ -80,12 +82,15 @@ We nevertheless reserve the right to deny enrollment to students who do not fulf
 This course carries 8 ECTS credits.  According to [the EPFL guidelines](https://www.epfl.ch/education/teaching/teaching-guide-2/getting-started/design-a-course_1/#:~:text=A%20full%2Dtime%20student%20is,of%20student%20work%2C%20per%20week), this corresponds to 240 hours of total study time. 
 Divided evenly over the 14 weeks of the semester, this leads to an average of a bit over 17 hours/week.  This is a big chunk of time in which you can accomplish a lot, as long as you are well organized.
 
+Outside of lectures and recitations, we expect you to spend this time reading the assigned papers multiple times, preparing your critical thoughts and questions on them, thinking deeply about design exercises and producing candidate answers. This will all enable you to participate meaningfully in the in-class discussions, ultimately helping you build the skills neccessary to succeed in POCS.
+
 ## Attendance Policy
 
 In-person attendance of lectures and recitations is crucial to the learning process.
 It is however not mandatory.
 Attendance by videoconference is not possible.
 Some lectures might be recorded, but this is not guaranteed.
+Recitations will not be recorded.
 
 We find that students who do not attend lectures and recitations on a regular basis end up spending much more time studying for the course, and ultimately perform less well.
 
