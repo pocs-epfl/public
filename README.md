@@ -1,7 +1,6 @@
 # EPFL CS-522: Principles of Computer Systems
 
-> [!IMPORTANT]  
-> This material is subject to change. Check back often.
+_Last updated: October 8, 2024_
 
 
 ## Description
