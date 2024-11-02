@@ -1,6 +1,6 @@
 # EPFL CS-522: Principles of Computer Systems
 
-_Last updated: October 29, 2024_
+_Last updated: November 2, 2024_
 
 
 ## Description
@@ -45,7 +45,7 @@ We meet twice a week from 11:15&mdash;13:00 in [BC01](https://plan.epfl.ch/?room
 | _Wk11_: Nov 26 + 29    | Case study: Transactions           | [Replication explained through baseball](https://dl.acm.org/doi/pdf/10.1145/2500500) and [CAP 12 yrs later](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)<br>>focus on transactional semantics & redundancy             |          |
 | _Wk12_: Dec 3 + 6      | Hardware/Software Co-Design        | [A new golden age for computer architecture](https://www.youtube.com/watch?v=3LVeEjsn8Ts&t=2183s) <br /> (about 10 minutes, up to when Patterson starts) <br /> and [There's plenty of room at the top](https://www.science.org/doi/10.1126/science.aam9744) | Q6       |
 | _Wk13_: Dec 10 + 13    | Exam Review                        | <center>&mdash;</center>                                                                                                                                                                                                                                     |          |
-| _Wk14_: Dec 17 + 20    | Exam                               | <center>&mdash;</center>                                                                                                                                                                                                                                     |          |
+| _Wk14_: Dec 17 + 20    | Exam on Dec 17 @ 11:15 in BC01<br>Exam discussion on Dec 20     | <center>&mdash;</center>                                                                                                                                                                                                                                     |          |
 
 The weekly readings are typically classic Computer Systems papers that embody the principle discussed that week and that have withstood the test of time.
 
