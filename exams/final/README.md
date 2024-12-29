@@ -1,5 +1,6 @@
-Principles of Computer Systems final exams
+# Final Exams
 
+* Fall 2024 [[test](./pocs-exam-2024.pdf) | [solutions](./pocs-exam-solutions-2024.pdf)]
 * Fall 2019 [[exam](pocs-final-2019.pdf)]
 * Fall 2018 [[exam](pocs-final-2018.pdf) | [solutions](pocs-final-2018-solutions.pdf)]
 * Fall 2017 [[exam](pocs-final-2017.pdf) | [partial solutions](pocs-final-2017-partial-solutions.pdf)]
