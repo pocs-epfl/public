@@ -1,6 +1,6 @@
 # EPFL CS-522: Principles of Computer Systems
 
-_Last updated: September 6, 2025_
+_Last updated: September 8, 2025_
 
 
 ## Description
@@ -19,7 +19,7 @@ The staff is reachable at pocs-staff@dslab.org for any private issues you may ha
 
 ## Schedule for Fall 2025
 
-We meet twice a week from 11:15&ndash;13:00: Tuesdays in [BC 01](https://plan.epfl.ch/?room==BC%2001) for lectures and Fridays in [PH H3 31](https://plan.epfl.ch/?room==PH%20H3%2031) for recitations.
+We meet twice a week from 11:15&ndash;13:00: Tuesdays in [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010) for lectures and Fridays in [PH H3 31](https://plan.epfl.ch/?room==PH%20H3%2031) for recitations.
 There are no classes during the week of October 20-25 (Fall break).
 We have an exam on Tuesday, December 16.
 
