@@ -1,6 +1,6 @@
 # EPFL CS-522: Principles of Computer Systems
 
-_Last updated: September 2, 2026_
+_Last updated: September 8, 2026_
 
 
 ## Description
@@ -19,15 +19,13 @@ The staff is reachable at pocs-staff@dslab.org for any private issues you may ha
 
 ## Schedule for Fall 2026
 
-We meet twice a week from 11:15&ndash;13:00: Tuesdays in [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010) for lectures and Fridays in [BC 04](https://plan.epfl.ch/?room==BC%2004) for recitations.
-There are no classes during the week of October 19-23 (Fall break).
-We have an exam on Tuesday, December 15.
+We meet twice a week from 11:15&ndash;13:00: Tuesdays in [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010) for lectures and Fridays in [BC 04](https://plan.epfl.ch/?room==BC%2004) for recitations. There are no classes during the week of October 19-23 (Fall break). There is an exam on Tuesday, December 15. Siz quizzes will be distributed over the course of the semester as shown below.
 
 ## Syllabus
 
 | **Week**               | **Lecture** (Tue)                          | **Recitation** (Fri)                                                                                                                                                                                                                                                        | **Quiz** |
 |------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| _Wk1_: Sep 8 + 11     | Modularity &amp; Abstraction <!-- [[slides](https://moodle.epfl.ch/pluginfile.php/3465911/mod_folder/content/0/Wk1%20-%20Modularity%20and%20Abstraction.pdf?forcedownload=1)] -->    | [Exokernel](https://dl.acm.org/doi/pdf/10.1145/224057.224076)<br>>focus on interfaces                                                                                                              | Q1 <!-- [Q1](https://moodle.epfl.ch/pluginfile.php/3487105/mod_folder/content/0/Quiz%201%20-%20Sample%20Solution.pdf?forcedownload=1) -->      |
+| _Wk1_: Sep 8 + 11     | Modularity &amp; Abstraction [[slides](https://drive.google.com/file/d/1_f7xk-_lUAupCAPrmp9Ullmp3NSdAujd/view?usp=sharing)]   | [Exokernel](https://dl.acm.org/doi/pdf/10.1145/224057.224076)<br>>focus on interfaces                                                                                                              | Q1 <!-- [Q1](https://moodle.epfl.ch/pluginfile.php/3487105/mod_folder/content/0/Quiz%201%20-%20Sample%20Solution.pdf?forcedownload=1) -->      |
 | _Wk2_: Sep 15 + 18     | Naming &amp; Indirection <!-- [[slides](https://moodle.epfl.ch/pluginfile.php/3465911/mod_folder/content/0/Wk2%20-%20Naming%20and%20Indirection.pdf?forcedownload=1)] --> </br> | [Global Name Service](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/Lampson.pdf)<br>(optionally also [Chord](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)) | Q2       |
 | _Wk3_: Sep 22 + 25     | Layering <!-- [[slides](https://moodle.epfl.ch/pluginfile.php/3465911/mod_folder/content/0/Wk3%20-%20Layers.pdf?forcedownload=1)] --> </br>                     | [RON](https://www.cs.cmu.edu/~dga/papers/ron-sosp2001.pdf)<br>(optionally also [Multi-path TCP](https://www.usenix.org/legacy/events/nsdi11/tech/full_papers/Wischik.pdf))                                                                                   |          |
 | _Wk4_: Sep 29 +<br> Oct 2       | Virtualization <!-- [[slides](https://moodle.epfl.ch/pluginfile.php/3465911/mod_folder/content/0/Wk4%20-%20Memory%20virtualization.pdf?forcedownload=1)] -->   <br> Case study: Memory Virtualization         | Case study: Machine Virtualization <!-- [[slides](https://moodle.epfl.ch/pluginfile.php/3465911/mod_folder/content/0/Wk4a%20-%20Machine%20Virtualization.pdf?forcedownload=1) \| [video](https://youtu.be/Rvp4rnFaYJM)] -->  <br>[Formal requirements for virtualization](https://dl.acm.org/doi/pdf/10.1145/361011.361073)                                                                                                                       |          |
