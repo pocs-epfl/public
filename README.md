@@ -60,7 +60,7 @@ Without this background, it is hard to succeed in POCS.
 One way to acquire this background is, for example, by taking the following courses (or equivalent):
 
 - [CS-477: Advanced operating systems](https://edu.epfl.ch/coursebook/en/advanced-operating-systems-CS-477)
-- [COM-407: TCP/IP networking](https://edu.epfl.ch/coursebook/en/tcp-ip-networking-COM-407)
+- [COM-407: Advanced Networks](https://edu.epfl.ch/coursebook/en/advanced-networks-COM-407)
 - [CS-470: Advanced computer architecture](https://edu.epfl.ch/coursebook/en/advanced-computer-architecture-CS-470)
 - [CS-460: Systems for data management and data science](https://edu.epfl.ch/coursebook/en/systems-for-data-management-and-data-science-CS-460)
 
